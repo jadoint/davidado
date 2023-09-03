@@ -6,6 +6,12 @@ draft = false
 
 This is just a quick reference sheet for me to get something up and running on Google Cloud quickly so I'm writing this as if no one else is reading it...
 
+## List all pods
+`kubectl get pods`
+
+## Get a shell to a pod
+`kubectl exec -it <name of pod> -- bash`
+
 Starts you off with 2 nodes (e2-medium by default) in a multi-zonal configuration located in *us-central1* with auto-scaling enabled with a minimum of 1 node and a maximum of 4. See: [https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler)
 
 `gcloud container clusters create example-cluster --zone us-central1-a --node-locations us-central1-a,us-central1-b,us-central1-f --num-nodes 2 --enable-autoscaling --min-nodes 1 --max-nodes 4`
