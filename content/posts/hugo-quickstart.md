@@ -126,3 +126,15 @@ git push -u origin main
 - Production branch: `main`
 - Build command: `hugo`
 - Build directory: `public`
+
+## Notable themes
+
+Good for professional blogs: [Anatole](https://themes.gohugo.io/themes/anatole/)
+
+Blog theme with a focus on images: [Blist](https://themes.gohugo.io/themes/blist-hugo-theme/)
+
+Good for company landing pages: [Hugo Fresh](https://themes.gohugo.io/themes/hugo-fresh/)
+
+Good for portfolios: [Creative portfolio](https://themes.gohugo.io/themes/hugo-creative-portfolio-theme/)
+
+Good for galleries: [Gallery Deluxe](https://themes.gohugo.io/themes/gallerydeluxe/)
