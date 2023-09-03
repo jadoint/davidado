@@ -137,4 +137,4 @@ Good for company landing pages: [Hugo Fresh](https://themes.gohugo.io/themes/hug
 
 Good for portfolios: [Creative portfolio](https://themes.gohugo.io/themes/hugo-creative-portfolio-theme/)
 
-Good for galleries: [Gallery Deluxe](https://themes.gohugo.io/themes/gallerydeluxe/)
+Good for galleries: [Gallery](https://themes.gohugo.io/themes/hugo-theme-gallery/), [Gallery Deluxe](https://themes.gohugo.io/themes/gallerydeluxe/)
