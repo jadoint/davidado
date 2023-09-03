@@ -1,0 +1,62 @@
+baseURL = 'https://davidado.com/'
+languageCode = 'en-us'
+theme = 'anatole'
+title = 'David Ado'
+
+summarylength = 20
+enableEmoji = true
+enableRobotsTXT = true
+
+# Google Analytics
+googleAnalytics = "GTM-PX2NHGFS"
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[params]
+title = 'David Ado'
+author = 'David Ado'
+profilePicture = "/images/profile.jpg"
+enableEmoji = true
+enableRobotsTXT = true
+readMore = true
+relatedPosts = true
+numberOfRelatedPosts = 3
+description = """
+Full Stack Developer
+Cloud Architect
+"""
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/davidado/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/jadoint"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/about-me"
