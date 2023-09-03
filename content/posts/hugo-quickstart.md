@@ -42,7 +42,7 @@ enableEmoji = true
 enableRobotsTXT = true
 
 # Google Analytics
-googleAnalytics = "G**-********"
+googleAnalytics = "G-**********"
 
 # Syntax highlighting
 pygmentsUseClasses = true   
