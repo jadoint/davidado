@@ -28,3 +28,7 @@ Because I forgot my `.gitignore` and the node_modules directory got committed ag
 git rm -r --cached node_modules
 git commit -am "Removed node_modules directory"
 ```
+
+## Committing a modified file in a submodule that refuses to be committed
+
+`git add --all`
