@@ -19,3 +19,12 @@ git branch -M main
 git remote add origin https://github.com/<your-gh-username>/<repository-name>
 git push -u origin main
 ```
+
+## Removing something from git
+
+Because I forgot my `.gitignore` and the node_modules directory got committed again. Create the `.gitignore` file this time and run:
+
+```
+git rm -r --cached node_modules
+git commit -am "Removed node_modules directory"
+```
