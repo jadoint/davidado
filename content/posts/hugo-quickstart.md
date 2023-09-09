@@ -23,7 +23,7 @@ You can find a theme at [themes.gohugo.io](https://themes.gohugo.io/). I'll be u
 ```
 cd my-hugo-site
 git init
-git submodule add https://github.com/lxndrblz/anatole.git anatole
+git submodule add https://github.com/lxndrblz/anatole.git themes/anatole
 git submodule update --init --recursive
 ```
 
@@ -104,6 +104,10 @@ Images, favicons, and fonts go into the */static* directory and is referenced in
 
 ---
 
+## Run server
+
+`hugo server`
+
 ## Create a post
 
 `hugo new posts/hello-world.md`
@@ -133,7 +137,7 @@ Good for professional blogs: [Anatole](https://themes.gohugo.io/themes/anatole/)
 
 Blog theme with a focus on images: [Blist](https://themes.gohugo.io/themes/blist-hugo-theme/)
 
-Good for company landing pages: [Hugo Fresh](https://themes.gohugo.io/themes/hugo-fresh/)
+Good for company sites: [Up Business Theme](https://themes.gohugo.io/themes/up-business-theme/), [Spectral](https://themes.gohugo.io/themes/spectral/), [Hugo Fresh](https://themes.gohugo.io/themes/hugo-fresh/)
 
 Good for portfolios: [Creative portfolio](https://themes.gohugo.io/themes/hugo-creative-portfolio-theme/)
 

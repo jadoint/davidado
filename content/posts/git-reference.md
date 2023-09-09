@@ -29,6 +29,6 @@ git rm -r --cached node_modules
 git commit -am "Removed node_modules directory"
 ```
 
-## Committing a modified file in a submodule that refuses to be committed
+## Committing a modified file in a submodule
 
-`git add --all`
+`cd` inside the submodule directory then add and commit to git from there. You can then go to your project directory and add and commit to git as normal.
